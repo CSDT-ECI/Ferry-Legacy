@@ -61,7 +61,7 @@ It was originally written for a series of legacy code workshops and should provi
      ![FerriesTest](java/src/main/resources/ferriestest.png)
   3. Clase AvailableCrossing: utilizamos la librería Mockito para crear mocks de las clases TimeTables y PortManager. Luego, creamos dos pruebas unitarias para el método nextFerryAvailableFrom.
      ![FerriesTest](java/src/main/resources/ferryavailabilityservicetest.png)
-     
+
 #### Proponer algunas mejoras o ideas para reducir la deuda técnica:
 - Se propone las siguientes ideas para reducir la deuda:
     1. Implementación de Pruebas Unitarias: Se podrían crear pruebas unitarias para las clases y métodos clave del proyecto, como las clases AvailableCrossing, JourneyBookingService, y Ferry. Estas pruebas ayudarían a validar el comportamiento de las funciones de manera aislada y a detectar posibles errores.
