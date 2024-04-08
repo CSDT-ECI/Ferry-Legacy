@@ -13,7 +13,7 @@
 - Implementa patrones de diseño que mejoran la escalabilidad y mantenibilidad del código.
 #### **Clase FerryManager**
 - La clase FerryManager centraliza la lógica de gestión de los ferris, lo que mejora la cohesión y facilita su mantenimiento.
-#### ** Ferry Journey**
+#### **Ferry Journey**
 - La clase FerryJourney maneja de manera eficiente la información relacionada con los viajes en los ferris, contribuyendo a la claridad del código.
 
 ### Puntos Negativos
