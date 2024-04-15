@@ -76,6 +76,18 @@ GitHub Copilot es una herramienta de inteligencia artificial que puede ser de gr
 - **Corrección de smell codes**: Copilot puede identificar y sugerir correcciones para los smell codes, lo que puede mejorar la legibilidad y mantenibilidad del código.
 
 - **Identificación de errores** :Copilot puede identificar errores en el código y sugerir correcciones, lo que puede ayudar a reducir el tiempo de depuración.
+### Uso de las herramientas :
+- Abrimos Sonarlint y ubicamos la primera issue, abrimos en el proyecto la clase en que se ubica el issue y copiamos la descripción que nos proporciona el reporte
+![foto1](java/src/main/resources/foto1.png)
+
+- Ahora abrimos copilot en la clase que está situada el issue y pegamos en el chat la descripción de el smell code , cuando la ia genere las refactorizaciones revisamos la solución propuesta
+![foto2](java/src/main/resources/foto2.png)
+
+- Ahora analizamos rapidamente si sonarlint encuentra de manera especifica smell codes :
+![foto3](java/src/main/resources/foto3.png)
+
+- Finalmente volvemos a hacer una analisis general y verificamos que el issue ya esté solucionado:
+![foto4](java/src/main/resources/foto4.png)
 
 ## Conclusiones
 - _En resumen, GitHub Copilot puede ser una herramienta valiosa para mejorar la productividad y la experiencia del desarrollador en este proyecto en compañía de SonarLint ya que este nos detectará los smell codes que hay en el proyecto y Copilot nos ayudará a resolverlos._
