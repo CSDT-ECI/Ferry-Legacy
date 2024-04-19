@@ -26,8 +26,8 @@ Una vez iniciada sesión crearemos un nuevo proyecto a analizar :
 - Como podemos ver este ya nos trae un Job BUILD que se requiere en los items de entrega , adicionalmente debemos añadir un job para los test unitarios :
 agregamos la configuración que propone SonarCloud:
 ![image](https://github.com/CSDT-ECI/Juan_alvarez_Ferry-Legacy/assets/98127586/e4d4eeae-4e4c-4929-842e-336e71d28532)
-- Añadimos un trabajo para los test y adicionamos un job Con Slack 
-![image](https://github.com/CSDT-ECI/Juan_alvarez_Ferry-Legacy/assets/98127586/feb00fbf-be70-446c-8650-5172d3001217)
+- Añadimos un trabajo para los test y adicionamos un job Dependency check. La acción OWASP/Dependency-Check_Action genera informes de análisis de dependencias en varios formatos. Cuando se configura el parámetro format: 'ALL', se generan informes en todos los formatos disponibles. Los formatos disponibles son: XML , HTML , JSON , entre otros  
+![image](https://github.com/CSDT-ECI/Juan_alvarez_Ferry-Legacy/assets/98127586/4b249fcd-287b-4def-bb9b-bb11c4daf227)
 - Una vez terminado compilamos y tenemos el siguiente error, el cual indica que la versión de GRADLE del proyecto es bastante antigua para usar JAVA 17 , por lo que tenemos que migrar a una versión más actualizada.
 ![image](https://github.com/CSDT-ECI/Juan_alvarez_Ferry-Legacy/assets/98127586/e970360b-afe7-47fb-958a-df7669eaa410)
 - La actualizamos : 
