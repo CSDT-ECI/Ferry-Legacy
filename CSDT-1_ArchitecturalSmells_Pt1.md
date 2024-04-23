@@ -44,9 +44,21 @@ _Modificamos el input con el directorio del modulo java y el output con un direc
 ![image](https://github.com/CSDT-ECI/Juan_alvarez_Ferry-Legacy/assets/98127586/83488469-2622-440e-b000-b08c95a6bb65)
 _El analisis ya fue generado y podemos encontrarlo en el directorio que especificamos, se generan archivos XML, donde a manera de tablas se especifican estos smells._
 ![image](https://github.com/CSDT-ECI/Juan_alvarez_Ferry-Legacy/assets/98127586/50c8a17d-a70b-4179-84c6-c7d70a59029f)
-_Abramos el directorio en visual estudio y revisamos cada archivo, iniciamos con los Arquitecture Smells_
-![image](https://github.com/CSDT-ECI/Juan_alvarez_Ferry-Legacy/assets/98127586/361cc156-a8e7-4085-a77b-af27ebf8441f)
-__
+_Revisamos cada archivo con excel ya que está en formato CVS, iniciamos con los Arquitecture Smells_
+![image](https://github.com/CSDT-ECI/Juan_alvarez_Ferry-Legacy/assets/98127586/94bf89a5-7049-45be-ba92-aad54f177465)
+_Como podemos observar el archivo está vacio por lo que no se dectectaron Olores en la arquitectura, revisemos el siguiente archivo : Design Smells_
+![image](https://github.com/CSDT-ECI/Juan_alvarez_Ferry-Legacy/assets/98127586/0545ac9f-ae46-4221-a7c0-8d16cba16273)
+_En este archivo contienen los Olores de diseño filtrados en una tabla indicando , el proyecto , la clase , el olor de diseño y su razón, entre estos encontramos olores en abstracción, Encapsulamiento y Modularización , sigamos con el archivo de Implementation Smells_
+![image](https://github.com/CSDT-ECI/Juan_alvarez_Ferry-Legacy/assets/98127586/6e046bc8-23f8-40f5-9300-5db90fc1fc21)
+_Aqui se especifican los olores de implementación en los metodos de las clases citadas , adicionalmente se otorga el tipo de olor y la razón por la cual está siendo detectado, A diferencia del analisis de C# obtenemos un nuevo olor que es Long Statement ,lo que significa que este metodo está generando valores muy largos y esto puede ser debido a que no tiene una unica responsabilidad, abramos el archivo que sigue, Testability Smells_
+![image](https://github.com/CSDT-ECI/Juan_alvarez_Ferry-Legacy/assets/98127586/bcde2f78-9205-4a40-90c1-80c509038674)
+_Se analizan las clases y se logra evidenciar que algunas de ellas las cuales están listadas pertenecen a un grupo donde tienen demasiadas dependencias y se listan cuantas exactamente están siendo usadas._
+_Finalmente miremos el ultimo archivo relacionado al analisis del proyecto , Test Smells_
+![image](https://github.com/CSDT-ECI/Juan_alvarez_Ferry-Legacy/assets/98127586/d30e0ece-bbc5-4f33-8714-71987c8ad325)
+_En este analisis los test que se tienen son evaluados y se listan los que posean Smells, en este caso se listan 3 los cuales tienen el Smell "Assertion Rulette" el cual ocurre cuando se hacen multiples assertions sin documentar haciendo que sea demasiado dificil encontrar el porque de el test falle o su refactorización futura._
+
+
+
 
 
 
